@@ -1,0 +1,26 @@
+# This is a generated file; do not edit or check into version control.
+arcane_auth=/Users/cyberpwn/.pub-cache/hosted/pub.dev/arcane_auth-1.7.0+3/
+desktop_drop=/Users/cyberpwn/.pub-cache/hosted/pub.dev/desktop_drop-0.5.0/
+desktop_webview_auth=/Users/cyberpwn/.pub-cache/hosted/pub.dev/desktop_webview_auth-0.0.15/
+desktop_webview_window=/Users/cyberpwn/.pub-cache/hosted/pub.dev/desktop_webview_window-0.2.3/
+firebase_auth=/Users/cyberpwn/.pub-cache/hosted/pub.dev/firebase_auth-5.5.2/
+firebase_auth_web=/Users/cyberpwn/.pub-cache/hosted/pub.dev/firebase_auth_web-5.14.2/
+firebase_core=/Users/cyberpwn/.pub-cache/hosted/pub.dev/firebase_core-3.13.0/
+firebase_core_web=/Users/cyberpwn/.pub-cache/hosted/pub.dev/firebase_core_web-2.22.0/
+google_sign_in=/Users/cyberpwn/.pub-cache/hosted/pub.dev/google_sign_in-6.3.0/
+google_sign_in_android=/Users/cyberpwn/.pub-cache/hosted/pub.dev/google_sign_in_android-6.2.0/
+google_sign_in_ios=/Users/cyberpwn/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.8.1/
+google_sign_in_web=/Users/cyberpwn/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.4+4/
+path_provider=/Users/cyberpwn/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+path_provider_android=/Users/cyberpwn/.pub-cache/hosted/pub.dev/path_provider_android-2.2.16/
+path_provider_foundation=/Users/cyberpwn/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.1/
+path_provider_linux=/Users/cyberpwn/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+path_provider_windows=/Users/cyberpwn/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+sign_in_with_apple=/Users/cyberpwn/.pub-cache/hosted/pub.dev/sign_in_with_apple-7.0.1/
+sign_in_with_apple_web=/Users/cyberpwn/.pub-cache/hosted/pub.dev/sign_in_with_apple_web-3.0.0/
+sqflite=/Users/cyberpwn/.pub-cache/hosted/pub.dev/sqflite-2.4.2/
+sqflite_android=/Users/cyberpwn/.pub-cache/hosted/pub.dev/sqflite_android-2.4.1/
+sqflite_darwin=/Users/cyberpwn/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.2/
+webview_flutter=/Users/cyberpwn/.pub-cache/hosted/pub.dev/webview_flutter-4.10.0/
+webview_flutter_android=/Users/cyberpwn/.pub-cache/hosted/pub.dev/webview_flutter_android-4.3.4/
+webview_flutter_wkwebview=/Users/cyberpwn/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.18.5/
