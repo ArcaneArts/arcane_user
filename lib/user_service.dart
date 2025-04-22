@@ -49,32 +49,32 @@ abstract class ArcaneUserService<
     List<Future> work = [];
     work.add(
       $crud
-          .ensureExists<U>(user.user.uid, createUserModel(user))
+          .$ensureExists<U>(user.user.uid, createUserModel(user))
           .bang
           .then((i) => _user.add(i)),
     );
     work.add(
       $crud
-          .model<U>(user.user.uid)
+          .$model<U>(user.user.uid)
           .ensureExistsUnique<S>(createUserSettingsModel(user))
           .bang
           .then((i) => _settings.add(i)),
     );
     work.add(
       $crud
-          .model<U>(user.user.uid)
+          .$model<U>(user.user.uid)
           .getUnique<C>()
           .then((i) => i ?? createUserCapabilitiesModel(user))
           .then((i) => _capabilities.add(i)),
     );
     await Future.wait(work);
-    _uSubscription = $crud.stream<U>(user.user.uid).listen(_user.add);
+    _uSubscription = $crud.$stream<U>(user.user.uid).listen(_user.add);
     _sSubscription = $crud
-        .model<U>(user.user.uid)
+        .$model<U>(user.user.uid)
         .streamUnique<S>()
         .listen(_settings.add);
     _cSubscription = $crud
-        .model<U>(user.user.uid)
+        .$model<U>(user.user.uid)
         .streamUnique<C>()
         .map((i) => i ?? createUserCapabilitiesModel(user))
         .listen(_capabilities.add);

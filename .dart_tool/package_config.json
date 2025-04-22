@@ -255,7 +255,7 @@
     },
     {
       "name": "fire_crud",
-      "rootUri": "file:///Users/cyberpwn/.pub-cache/hosted/pub.dev/fire_crud-3.0.0",
+      "rootUri": "file:///Users/cyberpwn/.pub-cache/hosted/pub.dev/fire_crud-3.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -1088,7 +1088,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-04-22T14:01:54.243491Z",
+  "generated": "2025-04-22T14:38:46.640138Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/cyberpwn/development/flutter",
